@@ -1,6 +1,6 @@
 baseURL = "https://nerone.dev"
 languageCode = "en-us"
-title = "Rocinante"
+title = "nerone.dev"
 theme = "rocinante"
 paginate = 3
 
@@ -12,35 +12,39 @@ paginate = 3
 
 [params]
   favicon = "/icons/favicon.png"
-  mainSections = ["posts", "photos"]
-  email = "mail@example.com"
+  mainSections = ["posts"]
+  email = "leofnerone@protonmail.com"
   about = """
-About section. Enter details about you here.
+Hey! I'm **Leo**. I am a student at the University of Pennsylvania, and I love to study about compilers and decentralization.
+In my free time, I pretend I know how to play the guitar :)
+
+My PGP Fingerprint is *508A 37BA 0F98 21C2 A9B3  E0EA 86C8 B18A AFBB 238D*.
 """
 
   [[params.links]]
     [[params.links.link]]
-      name = "Resume"
-      href = "/Resume.pdf"
+      name = "Linkedin"
+      href = "https://www.linkedin.com/in/leonardo-felipe-nerone/"
     [[params.links.link]]
       name = "Email"
-      href = "/contact"
-      smart_email_link = true
+      href = "mailto:leofnerone@protonmail.com"
+      new_tab = true
 
   [[params.links]]
     [[params.links.link]]
       name = "Github"
-      href = "https://github.com/"
-      new_tab = true
-    [[params.links.link]]
-      name = "Mastodon"
-      href = "https://mastodon.social/"
+      href = "https://github.com/LeoNero"
       new_tab = true
     [[params.links.link]]
       name = "Twitter"
-      href = "https://twitter.com/"
+      href = "https://twitter.com/leo_nerone"
       new_tab = true
     [[params.links.link]]
-      name = "Instagram"
-      href = "https://instagram.com/"
+      name = "Mastodon"
+      href = "https://bitcoinhackers.org/@leofn"
       new_tab = true
+    [[params.links.link]]
+      name = "Keybase"
+      href = "https://keybase.io/leofnerone"
+      new_tab = true
+
